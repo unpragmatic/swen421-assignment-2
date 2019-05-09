@@ -4,17 +4,12 @@ CONSTANT Messages
 (* --algorithm send
 variable input = Messages, outputQueue = <<>>, inputQueue = <<>>
 
-fair process sender = "sender"
-
 begin
-A:
     while Len(input) /= 0 do
         await Len(outputQueue) < 5;
         outputQueue := Append(outputQueue, Head(input));
         input := Tail(input)
     end while
-    
-end process;
 end algorithm; *)
 \* BEGIN TRANSLATION
 VARIABLES input, outputQueue, inputQueue, pc
@@ -49,5 +44,5 @@ Termination == <>(pc = "Done")
 
 =============================================================================
 \* Modification History
-\* Last modified Thu May 09 22:29:00 NZST 2019 by zva
+\* Last modified Thu May 09 23:25:35 NZST 2019 by zva
 \* Created Thu May 09 21:13:00 NZST 2019 by zva
