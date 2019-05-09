@@ -91,7 +91,8 @@ receiverToSenderWire == INSTANCE dataWire WITH
             outputQueue <- senderInQueue
             
 ----------------------------------
-
+(* Used for refinement check *)
+OPB == INSTANCE onePlaceBuffer WITH input <- senderInput, output <- receiverOutput, buffer <- receiverInQueue[1]
 ----------------------------------
 
 Init == /\ sender!Init
@@ -152,12 +153,8 @@ Spec == /\ Init /\ [][Next]_vars
        (* Add invariants + properties + Explain to a non expert what they show. *)   
 ---------
 
-(* Used for refinement check *)
-OPB == INSTANCE onePlaceBuffer WITH input <- senderInput, output <- receiverOutput, buffer <- <<>>
-THEOREM Spec => OPB!Spec
-
 MessageReceived == <>(receiverOutput = Messages)
-
+THEOREM Spec => OPB!Spec
 -------------          
 (*  Your explanation (10%)
   Briefly describe the models you used and  what they verify
@@ -169,5 +166,5 @@ Explain what has not been verified.
 
 =============================================================================
 \* Modification History
-\* Last modified Thu May 09 23:52:01 NZST 2019 by zva
+\* Last modified Thu May 09 23:49:13 NZST 2019 by zva
 \* Created Thu May 09 20:37:40 NZST 2019 by zva

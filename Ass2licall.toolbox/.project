@@ -35,5 +35,10 @@
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/dataWire.tla</locationURI>
 		</link>
+		<link>
+			<name>onePlaceBuffer.tla</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/onePlaceBuffer.tla</locationURI>
+		</link>
 	</linkedResources>
 </projectDescription>

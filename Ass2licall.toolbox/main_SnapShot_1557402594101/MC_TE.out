@@ -2,7 +2,7 @@
 TLC2 Version 2.13 of 18 July 2018
 @!@!@ENDMSG 2262 @!@!@
 @!@!@STARTMSG 2187:0 @!@!@
-Running breadth-first search Model-Checking with fp 48 and seed 4887426692656365294 with 2 workers on 4 cores with 597MB heap and 1339MB offheap memory [pid: 1480] (Windows 10 10.0 amd64, AdoptOpenJDK 11.0.2 x86_64, OffHeapDiskFPSet, DiskStateQueue).
+Running breadth-first search Model-Checking with fp 7 and seed 449951101564997289 with 2 workers on 4 cores with 597MB heap and 1339MB offheap memory [pid: 7864] (Windows 10 10.0 amd64, AdoptOpenJDK 11.0.2 x86_64, OffHeapDiskFPSet, DiskStateQueue).
 @!@!@ENDMSG 2187 @!@!@
 @!@!@STARTMSG 2220:0 @!@!@
 Starting SANY...
@@ -35,7 +35,7 @@ Semantic processing of module MC
 SANY finished.
 @!@!@ENDMSG 2219 @!@!@
 @!@!@STARTMSG 2185:0 @!@!@
-Starting... (2019-05-09 23:52:03)
+Starting... (2019-05-09 23:49:52)
 @!@!@ENDMSG 2185 @!@!@
 @!@!@STARTMSG 2212:0 @!@!@
 Implied-temporal checking--satisfiability problem has 1 branches.
@@ -44,16 +44,16 @@ Implied-temporal checking--satisfiability problem has 1 branches.
 Computing initial states...
 @!@!@ENDMSG 2189 @!@!@
 @!@!@STARTMSG 2190:0 @!@!@
-Finished computing initial states: 1 distinct state generated at 2019-05-09 23:52:04.
+Finished computing initial states: 1 distinct state generated at 2019-05-09 23:49:53.
 @!@!@ENDMSG 2190 @!@!@
 @!@!@STARTMSG 2200:0 @!@!@
-Progress(9) at 2019-05-09 23:52:04: 44 states generated, 18 distinct states found, 0 states left on queue.
+Progress(9) at 2019-05-09 23:49:53: 44 states generated, 18 distinct states found, 0 states left on queue.
 @!@!@ENDMSG 2200 @!@!@
 @!@!@STARTMSG 2192:0 @!@!@
-Checking temporal properties for the complete state space with 18 total distinct states at (2019-05-09 23:52:04)
+Checking temporal properties for the complete state space with 18 total distinct states at (2019-05-09 23:49:53)
 @!@!@ENDMSG 2192 @!@!@
 @!@!@STARTMSG 2267:0 @!@!@
-Finished checking temporal properties in 00s at 2019-05-09 23:52:04
+Finished checking temporal properties in 00s at 2019-05-09 23:49:53
 @!@!@ENDMSG 2267 @!@!@
 @!@!@STARTMSG 2193:0 @!@!@
 Model checking completed. No error has been found.
@@ -62,46 +62,46 @@ Model checking completed. No error has been found.
   calculated (optimistic):  val = 2.5E-17
 @!@!@ENDMSG 2193 @!@!@
 @!@!@STARTMSG 2201:0 @!@!@
-The coverage statistics at 2019-05-09 23:52:04
+The coverage statistics at 2019-05-09 23:49:53
 @!@!@ENDMSG 2201 @!@!@
 @!@!@STARTMSG 2773:0 @!@!@
-<Init line 97, col 1 to line 97, col 4 of module Ass2licall>: 1
+<Init line 98, col 1 to line 98, col 4 of module Ass2licall>: 1
 @!@!@ENDMSG 2773 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 97, col 9 to line 100, col 36 of module Ass2licall: 1
+  line 98, col 9 to line 101, col 36 of module Ass2licall: 1
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2772:0 @!@!@
-<receiverNext line 103, col 1 to line 103, col 12 of module Ass2licall>: 7:11
+<receiverNext line 104, col 1 to line 104, col 12 of module Ass2licall>: 8:11
 @!@!@ENDMSG 2772 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 73, col 1 to line 77, col 28 of module Ass2licall: 45
+  line 73, col 1 to line 77, col 28 of module Ass2licall: 46
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 74, col 23 to line 74, col 36 of module Ass2licall: 73
+  line 74, col 23 to line 74, col 36 of module Ass2licall: 74
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 75, col 27 to line 75, col 41 of module Ass2licall: 81
+  line 75, col 27 to line 75, col 41 of module Ass2licall: 82
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
   line 76, col 28 to line 76, col 43 of module Ass2licall: 28
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 77, col 19 to line 77, col 28 of module Ass2licall: 81
+  line 77, col 19 to line 77, col 28 of module Ass2licall: 83
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 25, col 13 to line 25, col 24 of module abpReceiver: 27
+  line 25, col 13 to line 25, col 24 of module abpReceiver: 28
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  |line 25, col 13 to line 25, col 14 of module abpReceiver: 18
+  |line 25, col 13 to line 25, col 14 of module abpReceiver: 19
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 26, col 16 to line 26, col 43 of module abpReceiver: 16
+  line 26, col 16 to line 26, col 43 of module abpReceiver: 17
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 27, col 24 to line 27, col 43 of module abpReceiver: 21
+  line 27, col 24 to line 27, col 43 of module abpReceiver: 22
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  |line 27, col 24 to line 27, col 38 of module abpReceiver: 14
+  |line 27, col 24 to line 27, col 38 of module abpReceiver: 15
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
   line 28, col 24 to line 28, col 65 of module abpReceiver: 7
@@ -122,46 +122,46 @@ The coverage statistics at 2019-05-09 23:52:04
   line 33, col 13 to line 33, col 33 of module abpReceiver: 9
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 37, col 16 to line 37, col 26 of module abpReceiver: 20
+  line 37, col 16 to line 37, col 26 of module abpReceiver: 21
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  |line 37, col 16 to line 37, col 17 of module abpReceiver: 18
+  |line 37, col 16 to line 37, col 17 of module abpReceiver: 19
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
   line 37, col 31 to line 37, col 44 of module abpReceiver: 2
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 104, col 20 to line 109, col 28 of module Ass2licall: 11
+  line 105, col 20 to line 110, col 28 of module Ass2licall: 11
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2772:0 @!@!@
-<senderNext line 111, col 1 to line 111, col 10 of module Ass2licall>: 3:18
+<senderNext line 112, col 1 to line 112, col 10 of module Ass2licall>: 3:19
 @!@!@ENDMSG 2772 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
   line 79, col 1 to line 83, col 26 of module Ass2licall: 1
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 80, col 22 to line 80, col 32 of module Ass2licall: 150
+  line 80, col 22 to line 80, col 32 of module Ass2licall: 161
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 81, col 27 to line 81, col 39 of module Ass2licall: 81
+  line 81, col 27 to line 81, col 39 of module Ass2licall: 85
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 82, col 28 to line 82, col 41 of module Ass2licall: 103
+  line 82, col 28 to line 82, col 41 of module Ass2licall: 111
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 83, col 19 to line 83, col 26 of module Ass2licall: 161
+  line 83, col 19 to line 83, col 26 of module Ass2licall: 167
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 25, col 13 to line 25, col 24 of module abpSender: 29
+  line 25, col 13 to line 25, col 24 of module abpSender: 31
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  |line 25, col 13 to line 25, col 14 of module abpSender: 18
+  |line 25, col 13 to line 25, col 14 of module abpSender: 19
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 26, col 16 to line 26, col 30 of module abpSender: 11
+  line 26, col 16 to line 26, col 30 of module abpSender: 12
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 27, col 21 to line 30, col 36 of module abpSender: 4
+  line 27, col 21 to line 30, col 36 of module abpSender: 5
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
   line 31, col 24 to line 31, col 35 of module abpSender: 7
@@ -170,61 +170,61 @@ The coverage statistics at 2019-05-09 23:52:04
   line 32, col 24 to line 32, col 57 of module abpSender: 7
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 33, col 13 to line 33, col 32 of module abpSender: 11
+  line 33, col 13 to line 33, col 32 of module abpSender: 12
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 37, col 16 to line 37, col 26 of module abpSender: 25
+  line 37, col 16 to line 37, col 26 of module abpSender: 26
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  |line 37, col 16 to line 37, col 17 of module abpSender: 18
+  |line 37, col 16 to line 37, col 17 of module abpSender: 19
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
   line 37, col 31 to line 37, col 44 of module abpSender: 7
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 112, col 18 to line 117, col 28 of module Ass2licall: 18
+  line 113, col 18 to line 118, col 28 of module Ass2licall: 19
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2772:0 @!@!@
-<dataChannel line 121, col 1 to line 121, col 11 of module Ass2licall>: 7:14
+<dataChannel line 122, col 1 to line 122, col 11 of module Ass2licall>: 6:14
 @!@!@ENDMSG 2772 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 86, col 27 to line 86, col 40 of module Ass2licall: 74
+  line 86, col 27 to line 86, col 40 of module Ass2licall: 75
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
   line 87, col 28 to line 87, col 42 of module Ass2licall: 33
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 27, col 12 to line 27, col 31 of module dataWire: 25
+  line 27, col 12 to line 27, col 31 of module dataWire: 26
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  |line 27, col 12 to line 27, col 26 of module dataWire: 18
+  |line 27, col 12 to line 27, col 26 of module dataWire: 19
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
   line 28, col 12 to line 31, col 47 of module dataWire: 7
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 122, col 20 to line 129, col 28 of module Ass2licall: 14
+  line 123, col 20 to line 130, col 28 of module Ass2licall: 14
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2772:0 @!@!@
-<ackChannel line 131, col 1 to line 131, col 10 of module Ass2licall>: 0:0
+<ackChannel line 132, col 1 to line 132, col 10 of module Ass2licall>: 0:0
 @!@!@ENDMSG 2772 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 90, col 27 to line 90, col 42 of module Ass2licall: 20
+  line 90, col 27 to line 90, col 42 of module Ass2licall: 21
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
   line 91, col 28 to line 91, col 40 of module Ass2licall: 1
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 27, col 9 to line 31, col 47 of module dataWire: 18
+  line 27, col 9 to line 31, col 47 of module dataWire: 19
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 132, col 19 to line 139, col 28 of module Ass2licall: 0
+  line 133, col 19 to line 140, col 28 of module Ass2licall: 0
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2202:0 @!@!@
 End of statistics.
 @!@!@ENDMSG 2202 @!@!@
 @!@!@STARTMSG 2200:0 @!@!@
-Progress(9) at 2019-05-09 23:52:04: 44 states generated (4,385 s/min), 18 distinct states found (1,794 ds/min), 0 states left on queue.
+Progress(9) at 2019-05-09 23:49:53: 44 states generated (4,575 s/min), 18 distinct states found (1,871 ds/min), 0 states left on queue.
 @!@!@ENDMSG 2200 @!@!@
 @!@!@STARTMSG 2199:0 @!@!@
 44 states generated, 18 distinct states found, 0 states left on queue.
@@ -236,5 +236,5 @@ The depth of the complete state graph search is 9.
 The average outdegree of the complete state graph is 1 (minimum is 0, the maximum 2 and the 95th percentile is 2).
 @!@!@ENDMSG 2268 @!@!@
 @!@!@STARTMSG 2186:0 @!@!@
-Finished in 1009ms at (2019-05-09 23:52:04)
+Finished in 949ms at (2019-05-09 23:49:53)
 @!@!@ENDMSG 2186 @!@!@
