@@ -1,0 +1,100 @@
+strict digraph DiskGraph {
+edge [colorscheme="paired12"]
+nodesep=0.35;
+subgraph cluster_graph {
+color="white";
+-4280371677981552270 [label="/\\ senderInQueue = <<>>\n/\\ receiverPc = \"Lbl_1\"\n/\\ senderPc = \"Lbl_1\"\n/\\ senderInput = <<\"Hello\", \"world!\">>\n/\\ receiverOutQueue = <<>>\n/\\ receiverOutput = <<>>\n/\\ senderOutQueue = <<>>\n/\\ receiverInQueue = <<>>",style = filled]
+-4280371677981552270 -> -3764758344692406112 [label="",color="2",fontcolor="2"];
+-3764758344692406112 [label="/\\ senderInQueue = <<>>\n/\\ receiverPc = \"Lbl_1\"\n/\\ senderPc = \"Lbl_1\"\n/\\ senderInput = <<\"world!\">>\n/\\ receiverOutQueue = <<>>\n/\\ receiverOutput = <<>>\n/\\ senderOutQueue = <<\"Hello\">>\n/\\ receiverInQueue = <<>>"];
+-4280371677981552270 -> -4280371677981552270 [style="dashed"];
+-3764758344692406112 -> 1521766084900010192 [label="",color="2",fontcolor="2"];
+1521766084900010192 [label="/\\ senderInQueue = <<>>\n/\\ receiverPc = \"Lbl_1\"\n/\\ senderPc = \"Lbl_1\"\n/\\ senderInput = <<>>\n/\\ receiverOutQueue = <<>>\n/\\ receiverOutput = <<>>\n/\\ senderOutQueue = <<\"Hello\", \"world!\">>\n/\\ receiverInQueue = <<>>"];
+-3764758344692406112 -> 830799497651670910 [label="",color="3",fontcolor="3"];
+830799497651670910 [label="/\\ senderInQueue = <<>>\n/\\ receiverPc = \"Lbl_1\"\n/\\ senderPc = \"Lbl_1\"\n/\\ senderInput = <<\"world!\">>\n/\\ receiverOutQueue = <<>>\n/\\ receiverOutput = <<>>\n/\\ senderOutQueue = <<>>\n/\\ receiverInQueue = <<\"Hello\">>"];
+-3764758344692406112 -> 830799497651670910 [label="",color="3",fontcolor="3"];
+-3764758344692406112 -> -3764758344692406112 [style="dashed"];
+1521766084900010192 -> -5507125400295914506 [label="",color="2",fontcolor="2"];
+-5507125400295914506 [label="/\\ senderInQueue = <<>>\n/\\ receiverPc = \"Lbl_1\"\n/\\ senderPc = \"Done\"\n/\\ senderInput = <<>>\n/\\ receiverOutQueue = <<>>\n/\\ receiverOutput = <<>>\n/\\ senderOutQueue = <<\"Hello\", \"world!\">>\n/\\ receiverInQueue = <<>>"];
+830799497651670910 -> 5298257922099601795 [label="",color="2",fontcolor="2"];
+5298257922099601795 [label="/\\ senderInQueue = <<>>\n/\\ receiverPc = \"Lbl_1\"\n/\\ senderPc = \"Lbl_1\"\n/\\ senderInput = <<>>\n/\\ receiverOutQueue = <<>>\n/\\ receiverOutput = <<>>\n/\\ senderOutQueue = <<\"world!\">>\n/\\ receiverInQueue = <<\"Hello\">>"];
+1521766084900010192 -> 5298257922099601795 [label="",color="3",fontcolor="3"];
+1521766084900010192 -> 5298257922099601795 [label="",color="3",fontcolor="3"];
+830799497651670910 -> 9072870533493070187 [label="",color="4",fontcolor="4"];
+9072870533493070187 [label="/\\ senderInQueue = <<>>\n/\\ receiverPc = \"Lbl_1\"\n/\\ senderPc = \"Lbl_1\"\n/\\ senderInput = <<\"world!\">>\n/\\ receiverOutQueue = <<>>\n/\\ receiverOutput = <<\"Hello\">>\n/\\ senderOutQueue = <<>>\n/\\ receiverInQueue = <<>>"];
+1521766084900010192 -> 1521766084900010192 [style="dashed"];
+830799497651670910 -> 830799497651670910 [style="dashed"];
+-5507125400295914506 -> -5507125400295914506 [label="",color="2",fontcolor="2"];
+-5507125400295914506 -> -1221718963264546139 [label="",color="3",fontcolor="3"];
+-1221718963264546139 [label="/\\ senderInQueue = <<>>\n/\\ receiverPc = \"Lbl_1\"\n/\\ senderPc = \"Done\"\n/\\ senderInput = <<>>\n/\\ receiverOutQueue = <<>>\n/\\ receiverOutput = <<>>\n/\\ senderOutQueue = <<\"world!\">>\n/\\ receiverInQueue = <<\"Hello\">>"];
+-5507125400295914506 -> -1221718963264546139 [label="",color="3",fontcolor="3"];
+-5507125400295914506 -> -5507125400295914506 [style="dashed"];
+5298257922099601795 -> -1221718963264546139 [label="",color="2",fontcolor="2"];
+5298257922099601795 -> 432223768475228877 [label="",color="4",fontcolor="4"];
+432223768475228877 [label="/\\ senderInQueue = <<>>\n/\\ receiverPc = \"Lbl_1\"\n/\\ senderPc = \"Lbl_1\"\n/\\ senderInput = <<>>\n/\\ receiverOutQueue = <<>>\n/\\ receiverOutput = <<\"Hello\">>\n/\\ senderOutQueue = <<\"world!\">>\n/\\ receiverInQueue = <<>>"];
+9072870533493070187 -> 432223768475228877 [label="",color="2",fontcolor="2"];
+5298257922099601795 -> 4883757824657514635 [label="",color="3",fontcolor="3"];
+4883757824657514635 [label="/\\ senderInQueue = <<>>\n/\\ receiverPc = \"Lbl_1\"\n/\\ senderPc = \"Lbl_1\"\n/\\ senderInput = <<>>\n/\\ receiverOutQueue = <<>>\n/\\ receiverOutput = <<>>\n/\\ senderOutQueue = <<>>\n/\\ receiverInQueue = <<\"Hello\", \"world!\">>"];
+9072870533493070187 -> 9072870533493070187 [style="dashed"];
+5298257922099601795 -> 4883757824657514635 [label="",color="3",fontcolor="3"];
+5298257922099601795 -> 5298257922099601795 [style="dashed"];
+-1221718963264546139 -> -1221718963264546139 [label="",color="2",fontcolor="2"];
+-1221718963264546139 -> -6668927612987563541 [label="",color="4",fontcolor="4"];
+-6668927612987563541 [label="/\\ senderInQueue = <<>>\n/\\ receiverPc = \"Lbl_1\"\n/\\ senderPc = \"Done\"\n/\\ senderInput = <<>>\n/\\ receiverOutQueue = <<>>\n/\\ receiverOutput = <<\"Hello\">>\n/\\ senderOutQueue = <<\"world!\">>\n/\\ receiverInQueue = <<>>"];
+-1221718963264546139 -> -1924669486689313875 [label="",color="3",fontcolor="3"];
+-1924669486689313875 [label="/\\ senderInQueue = <<>>\n/\\ receiverPc = \"Lbl_1\"\n/\\ senderPc = \"Done\"\n/\\ senderInput = <<>>\n/\\ receiverOutQueue = <<>>\n/\\ receiverOutput = <<>>\n/\\ senderOutQueue = <<>>\n/\\ receiverInQueue = <<\"Hello\", \"world!\">>"];
+-1221718963264546139 -> -1924669486689313875 [label="",color="3",fontcolor="3"];
+-1221718963264546139 -> -1221718963264546139 [style="dashed"];
+432223768475228877 -> -6668927612987563541 [label="",color="2",fontcolor="2"];
+432223768475228877 -> -497059320961401345 [label="",color="3",fontcolor="3"];
+-497059320961401345 [label="/\\ senderInQueue = <<>>\n/\\ receiverPc = \"Lbl_1\"\n/\\ senderPc = \"Lbl_1\"\n/\\ senderInput = <<>>\n/\\ receiverOutQueue = <<>>\n/\\ receiverOutput = <<\"Hello\">>\n/\\ senderOutQueue = <<>>\n/\\ receiverInQueue = <<\"world!\">>"];
+432223768475228877 -> -497059320961401345 [label="",color="3",fontcolor="3"];
+432223768475228877 -> 432223768475228877 [style="dashed"];
+4883757824657514635 -> -1924669486689313875 [label="",color="2",fontcolor="2"];
+4883757824657514635 -> -497059320961401345 [label="",color="4",fontcolor="4"];
+4883757824657514635 -> 4883757824657514635 [style="dashed"];
+-6668927612987563541 -> -6668927612987563541 [label="",color="2",fontcolor="2"];
+-1924669486689313875 -> -1924669486689313875 [label="",color="2",fontcolor="2"];
+-6668927612987563541 -> 6887890313192081113 [label="",color="3",fontcolor="3"];
+6887890313192081113 [label="/\\ senderInQueue = <<>>\n/\\ receiverPc = \"Lbl_1\"\n/\\ senderPc = \"Done\"\n/\\ senderInput = <<>>\n/\\ receiverOutQueue = <<>>\n/\\ receiverOutput = <<\"Hello\">>\n/\\ senderOutQueue = <<>>\n/\\ receiverInQueue = <<\"world!\">>"];
+-1924669486689313875 -> 6887890313192081113 [label="",color="4",fontcolor="4"];
+-6668927612987563541 -> 6887890313192081113 [label="",color="3",fontcolor="3"];
+-6668927612987563541 -> -6668927612987563541 [style="dashed"];
+-497059320961401345 -> 6887890313192081113 [label="",color="2",fontcolor="2"];
+-497059320961401345 -> -8515216147404007687 [label="",color="4",fontcolor="4"];
+-8515216147404007687 [label="/\\ senderInQueue = <<>>\n/\\ receiverPc = \"Lbl_1\"\n/\\ senderPc = \"Lbl_1\"\n/\\ senderInput = <<>>\n/\\ receiverOutQueue = <<>>\n/\\ receiverOutput = <<\"Hello\", \"world!\">>\n/\\ senderOutQueue = <<>>\n/\\ receiverInQueue = <<>>"];
+-497059320961401345 -> -497059320961401345 [style="dashed"];
+-1924669486689313875 -> -1924669486689313875 [style="dashed"];
+6887890313192081113 -> 6887890313192081113 [label="",color="2",fontcolor="2"];
+-8515216147404007687 -> 3413522457233403359 [label="",color="2",fontcolor="2"];
+3413522457233403359 [label="/\\ senderInQueue = <<>>\n/\\ receiverPc = \"Lbl_1\"\n/\\ senderPc = \"Done\"\n/\\ senderInput = <<>>\n/\\ receiverOutQueue = <<>>\n/\\ receiverOutput = <<\"Hello\", \"world!\">>\n/\\ senderOutQueue = <<>>\n/\\ receiverInQueue = <<>>"];
+6887890313192081113 -> 3413522457233403359 [label="",color="4",fontcolor="4"];
+-8515216147404007687 -> -8178521091668420421 [label="",color="4",fontcolor="4"];
+-8178521091668420421 [label="/\\ senderInQueue = <<>>\n/\\ receiverPc = \"Done\"\n/\\ senderPc = \"Lbl_1\"\n/\\ senderInput = <<>>\n/\\ receiverOutQueue = <<>>\n/\\ receiverOutput = <<\"Hello\", \"world!\">>\n/\\ senderOutQueue = <<>>\n/\\ receiverInQueue = <<>>"];
+6887890313192081113 -> 6887890313192081113 [style="dashed"];
+-8515216147404007687 -> -8515216147404007687 [style="dashed"];
+3413522457233403359 -> 3413522457233403359 [label="",color="2",fontcolor="2"];
+-8178521091668420421 -> -4974978301377798902 [label="",color="2",fontcolor="2"];
+-4974978301377798902 [label="/\\ senderInQueue = <<>>\n/\\ receiverPc = \"Done\"\n/\\ senderPc = \"Done\"\n/\\ senderInput = <<>>\n/\\ receiverOutQueue = <<>>\n/\\ receiverOutput = <<\"Hello\", \"world!\">>\n/\\ senderOutQueue = <<>>\n/\\ receiverInQueue = <<>>"];
+3413522457233403359 -> -4974978301377798902 [label="",color="4",fontcolor="4"];
+-8178521091668420421 -> -8178521091668420421 [label="",color="4",fontcolor="4"];
+3413522457233403359 -> 3413522457233403359 [style="dashed"];
+-4974978301377798902 -> -4974978301377798902 [label="",color="2",fontcolor="2"];
+-8178521091668420421 -> -8178521091668420421 [style="dashed"];
+-4974978301377798902 -> -4974978301377798902 [label="",color="4",fontcolor="4"];
+-4974978301377798902 -> -4974978301377798902 [style="dashed"];
+{rank = same; -4280371677981552270;}
+{rank = same; -3764758344692406112;}
+{rank = same; 1521766084900010192;830799497651670910;}
+{rank = same; -5507125400295914506;5298257922099601795;9072870533493070187;}
+{rank = same; 432223768475228877;4883757824657514635;-1221718963264546139;}
+{rank = same; -1924669486689313875;-6668927612987563541;-497059320961401345;}
+{rank = same; 6887890313192081113;-8515216147404007687;}
+{rank = same; 3413522457233403359;-8178521091668420421;}
+{rank = same; -4974978301377798902;}
+}
+subgraph cluster_legend {graph[style=bold];label = "Next State Actions" style="solid"
+node [ labeljust="l",colorscheme="paired12",style=filled,shape=record ]
+senderNext [label="senderNext",fillcolor=2]
+dataChannel [label="dataChannel",fillcolor=3]
+receiverNext [label="receiverNext",fillcolor=4]
+}}

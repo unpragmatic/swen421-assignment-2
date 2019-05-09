@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>Ass2licall</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>toolbox.builder.TLAParserBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>toolbox.natures.TLANature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>Ass2licall.tla</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Ass2licall.tla</locationURI>
+		</link>
+		<link>
+			<name>abpReceiver.tla</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/abpReceiver.tla</locationURI>
+		</link>
+		<link>
+			<name>abpSender.tla</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/abpSender.tla</locationURI>
+		</link>
+		<link>
+			<name>dataWire.tla</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/dataWire.tla</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>
