@@ -91,12 +91,9 @@ receiverToSenderWire == INSTANCE dataWire WITH
             outputQueue <- senderInQueue
             
 ----------------------------------
-(* Used for refinement check
-OPB == INSTANCE OnePlaceBufferSpec
+
 ----------------------------------
- ghost variables must not change the behaviour of the module.  
-   They are only used to define the refinement
-*)
+
 Init == /\ sender!Init
         /\ receiver!Init
         /\ senderToReceiverWire!Init
@@ -147,13 +144,19 @@ Next ==  \/ senderNext
          \/ receiverNext
          \/ dataChannel 
          \/ ackChannel
+         
 
-Spec == Init /\ [][Next]_vars
+Spec == /\ Init /\ [][Next]_vars
+        /\ WF_vars(Next)
        
        (* Add invariants + properties + Explain to a non expert what they show. *)   
 ---------
 
-MessageReceived == <>(senderInput = receiverOutput)
+(* Used for refinement check *)
+OPB == INSTANCE onePlaceBuffer WITH input <- senderInput, output <- receiverOutput, buffer <- <<>>
+THEOREM Spec => OPB!Spec
+
+MessageReceived == <>(receiverOutput = Messages)
 
 -------------          
 (*  Your explanation (10%)
@@ -166,5 +169,5 @@ Explain what has not been verified.
 
 =============================================================================
 \* Modification History
-\* Last modified Thu May 09 22:10:07 NZST 2019 by zva
+\* Last modified Thu May 09 23:52:01 NZST 2019 by zva
 \* Created Thu May 09 20:37:40 NZST 2019 by zva

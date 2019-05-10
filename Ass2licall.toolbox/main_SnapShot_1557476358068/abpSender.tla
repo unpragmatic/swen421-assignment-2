@@ -3,6 +3,7 @@ EXTENDS Sequences, Naturals, Integers
 CONSTANT Messages
 (* --algorithm send
 variable input = Messages, outputQueue = <<>>, inputQueue = <<>>
+
 begin
     while Len(input) /= 0 do
         await Len(outputQueue) < 5;
@@ -16,7 +17,7 @@ VARIABLES input, outputQueue, inputQueue, pc
 vars == << input, outputQueue, inputQueue, pc >>
 
 Init == (* Global variables *)
-        /\ input = <<"Hello", "world">>
+        /\ input = Messages
         /\ outputQueue = <<>>
         /\ inputQueue = <<>>
         /\ pc = "Lbl_1"
@@ -43,5 +44,5 @@ Termination == <>(pc = "Done")
 
 =============================================================================
 \* Modification History
-\* Last modified Thu May 09 21:55:16 NZST 2019 by zva
+\* Last modified Thu May 09 23:25:35 NZST 2019 by zva
 \* Created Thu May 09 21:13:00 NZST 2019 by zva
