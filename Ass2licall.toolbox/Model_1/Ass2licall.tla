@@ -273,6 +273,7 @@ MessageReceivedSequence == \A i \in 0..Len(Messages)-1 : (receiverOutput = SubSe
 MessageSentSequence == \A i \in 1..Len(Messages) : (senderInput = SubSeq(Messages, i, Len(Messages))) ~> (senderInput = SubSeq(Messages, i+1, Len(Messages)))
 
 \* Ensures that ackowledgement bits get acknowledged.
+\* Note that the reverse does not hold. 
 BitAcknowledged == \A b \in ValidBits : (receiverBit = b) ~> (senderBit = b)
 
 \* A property that says that eventually, the receiver's output
@@ -299,8 +300,8 @@ RUNNING:
 See the included screenshot for model setup. Not sure if it gets saved 
 along with the model.
 
-You can set QUEUE_LIMIT as high as you want, but a QUEUE_LIMIT of 3 takes
-10 minutes to run and the time required increases exponentially as the
+You can set QUEUE_LIMIT as high as you want, but a QUEUE_LIMIT of 4 takes
+5 minutes to run and the time required increases exponentially as the
 QUEUE_LIMIT increases.
 
 EXPLANATION:
@@ -350,5 +351,5 @@ in "Spec" as the various weak fairness statements (WF_vars(...)).
 
 =============================================================================
 \* Modification History
-\* Last modified Sun May 12 13:37:40 NZST 2019 by zva
+\* Last modified Sun May 12 00:14:38 NZST 2019 by zva
 \* Created Thu May 09 20:37:40 NZST 2019 by zva
